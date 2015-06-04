@@ -82,4 +82,4 @@ production:
   <<: *default
   database: chissanga
   username: benevides
-  password: <%= ENV['29Chis29'] %>
+  password: <%= ENV[''] %>
