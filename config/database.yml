@@ -81,5 +81,5 @@ test:
 production:
   <<: *default
   database: chissanga
-  username: 
-  password: 
+  username: benevides
+  password: 29Chis29
