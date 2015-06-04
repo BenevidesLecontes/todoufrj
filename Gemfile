@@ -59,7 +59,6 @@ gem 'auto_html'
 gem 'paperclip-av-transcoder'
 gem 'ffmpeg'
 gem 'av'
-gem 'impressionist'
 gem 'unicorn'
 gem 'mina'
 gem 'mina-sidekiq', :require => false
