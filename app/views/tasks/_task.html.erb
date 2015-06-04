@@ -1,0 +1,17 @@
+<div class="col-md-4"><div class="panel panel-info">
+	<div class="panel-heading">
+	<%= link_to task do %>
+	Criada <%= time_ago_in_words(task.created_at) %> atrás
+	<% end %>
+
+	<%= link_to "x", task_path(task), method: :delete, data: {confirm: "Tem certeza?"}, class: "pull-right" %>
+	</div>
+	<div class="panel-body">
+	  <%= raw(task.content_html) %>
+      <video width="328" controls src="<%= task.file.url %>"></video>
+	</div>
+
+	<div class="panel-footer text-center">
+
+	</div>
+</div></div>

@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<div class="row">
+  <div class="white col-md-6">
+    <strong>Descrição:</strong>
+    <%= @task.content %>
+    <video width="490" controls src="<%= @task.file.url %>"></video>
+  </div>
+</div>
+
+<div class="row">
+
+  <div class="col-md-4">
+    <%= link_to 'Editar', edit_task_path(@task) %> |
+    <%= link_to 'Voltar', tasks_path %>
+  </div>
+</div>
+
+
