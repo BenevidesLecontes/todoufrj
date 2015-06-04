@@ -81,5 +81,5 @@ test:
 production:
   <<: *default
   database: chissanga
-  username: benevides
-  password: <%= ENV[''] %>
+  username: chissanga
+  password: <%= ENV['TODOUFRJ_DATABASE_PASSWORD'] %>
