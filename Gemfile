@@ -61,5 +61,6 @@ gem 'ffmpeg'
 gem 'av'
 gem 'unicorn'
 gem 'mina'
+gem 'sidekiq'
 gem 'mina-sidekiq', :require => false
 gem 'mina-unicorn', :require => false
