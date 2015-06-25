@@ -2,16 +2,16 @@
 
 #Deploy:
 
--Apache e Phusion Passenger 
+- Apache e Phusion Passenger 
 
 #Banco de dados 
 
--PostgreSQL
+- PostgreSQL
 
 #Servidor utilizado
 
--Servidor gratuito da Amazon
--Utilizando o git para fazer o commit do projeto para o servidor
+- Servidor gratuito da Amazon
+- Utilizando o git para fazer o commit do projeto para o servidor
 
 #Referencia
 
